@@ -1,7 +1,7 @@
 # **Project 1 - Analyzing Bellabeat's Smart Device Fitness Data to Enhance their Marketing Strategy (Report)**
 
 ## Content
-  1. [Scenario](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/edit/main/Project%201%20-%20%20Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy/Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy.md#scenario)
+  1. [Scenario](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/blob/main/Project%201%20-%20%20Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy/Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy.md#scenario)
   2. [Business Tasks](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/edit/main/Project%201%20-%20%20Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy/Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy.md#business-tasks)
   3. [Data Exploration and Data Cleaning](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/edit/main/Project%201%20-%20%20Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy/Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy.md#business-tasks)
   4. [Data Analysis](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/edit/main/Project%201%20-%20%20Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy/Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy.md#data-analysis)
