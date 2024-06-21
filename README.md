@@ -13,7 +13,9 @@ Bellabeat, a company specializing in smart wellness products, aims to better und
 ### Process
 To address this problem, a comprehensive data analysis was conducted using a dataset that captured various aspects of user activity over a month. The data was cleaned and preprocessed to handle missing values, duplicate records, and inconsistent date formats using R. Key metrics such as total active hours, steps taken, calories burned, sedentary minutes, and sleep duration were examined. Visualizations were created using Tableau to illustrate trends in physical activity, calories burned, and sleep patterns, highlighting positive correlations between these metrics. Insights from the analysis were used to identify opportunities for enhancing Bellabeat’s app and marketing strategies.
 
-**Software Used: R, Tableau**
+### **Tools Used:**
+- R: For Data exploration and Data cleaning
+- Tableau: For Data visualization
 
 ### Conclusion
 With data analysis, I was able to uncover valuable insights, these insights provided a clear understanding of user behavior, highlighting areas for product enhancement and opportunities for more targeted and effective marketing strategies. The analysis demonstrated the importance of physical activity in calorie burned and identified patterns that can be used to motivate users to achieve better health outcomes.
