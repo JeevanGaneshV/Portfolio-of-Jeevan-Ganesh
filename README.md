@@ -1,6 +1,6 @@
 # Portfolio of Jeevan Ganesh
 ## Content
-1. [Analyzing Bellabeat's Smart Device Fitness Data to Enhance their Marketing Strategy](##Project 1 - Analyzing Bellabeat's Smart Device Fitness Data to Enhance their Marketing Strategy)
+1. [Analyzing Bellabeat's Smart Device Fitness Data to Enhance their Marketing Strategy](
 2. 
 
 
