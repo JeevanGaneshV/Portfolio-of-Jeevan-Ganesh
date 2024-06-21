@@ -6,6 +6,7 @@
 
 
 ## Project 1 - Analyzing Bellabeat's Smart Device Fitness Data to Enhance their Marketing Strategy
+### [**CLICK HERE TO SEE THE ENTIRE PROJECT REPORT**](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/blob/main/Project%201%20-%20%20Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy/Analyzing%20Smart%20Device%20Fitness%20Data%20to%20Enhance%20Bellabeat's%20Marketing%20Strategy.md#project-1---analyzing-bellabeats-smart-device-fitness-data-to-enhance-their-marketing-strategy-report)
 
 ### Description of the Problem
 Bellabeat, a company specializing in smart wellness products, aims to better understand how consumers use their devices for fitness tracking. This understanding is critical to enhancing their products and aligning their marketing efforts with consumer behavior. The goal is to identify how the trends can be applied to improve Bellabeat's product offerings, such as the Bellabeat app and to recommend strategic marketing enhancements based on consumer behavior.
