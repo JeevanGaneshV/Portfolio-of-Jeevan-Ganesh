@@ -16,7 +16,7 @@ To address this problem, a comprehensive data analysis was conducted using a dat
 
 ### **Tools Used:**
 - **R**: For Data exploration and Data cleaning
-- **Tableau**: For Data visualization
+- **Tableau**: For Data Analysis and Visualization
 
 ### Conclusion
 With data analysis, I was able to uncover valuable insights, these insights provided a clear understanding of user behavior, highlighting areas for product enhancement and opportunities for more targeted and effective marketing strategies. The analysis demonstrated the importance of physical activity in calorie burned and identified patterns that can be used to motivate users to achieve better health outcomes.
