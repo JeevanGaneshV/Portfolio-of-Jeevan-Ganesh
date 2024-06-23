@@ -13,3 +13,19 @@ This project can provide several valuable insights:
 - By linking dining trends with areas undergoing urban changes, we can understand the impact of these changes on the local food culture.
 
 ## Data Exploration and Cleaning
+
+**INSERT SQL_DATA_TABLE**
+
+- Checking for any duplicate rows by using restaurant_name as primary key.
+ ```sql
+SELECT 
+	restaurant_name, 
+	COUNT(*) AS count
+FROM world.zomato_chennai
+GROUP BY
+	restaurant_name
+HAVING count>1;
+```
+
+- Removing unused columns
+  
