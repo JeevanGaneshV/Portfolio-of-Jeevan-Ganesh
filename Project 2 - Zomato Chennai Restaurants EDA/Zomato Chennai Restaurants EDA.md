@@ -27,5 +27,32 @@ GROUP BY
 HAVING count>1;
 ```
 
-- Removing unused columns
-  
+- Removing unused columns such as zomato_url and address
+ ```sql
+ALTER TABLE world.zomato_chennai
+DROP COLUMN zomato_url;
+```
+
+```sql
+ALTER TABLE world.zomato_chennai
+DROP COLUMN address;
+```
+
+- Formatting strings to remove brackets from cuisine, top_dishes and features
+```sql
+UPDATE world.zomato_chennai
+SET cuisine = REPLACE(REPLACE(REPLACE(cuisine, '[', ''), ']', ''), ', ', ', ')
+WHERE restaurant_name IS NOT NULL;
+```
+```sql
+UPDATE world.zomato_chennai
+SET top_dishes = REPLACE(REPLACE(REPLACE(top_dishes, '[', ''), ']', ''), ', ', ', ')
+WHERE restaurant_name IS NOT NULL;
+```
+```sql
+UPDATE world.zomato_chennai
+SET features = REPLACE(REPLACE(REPLACE(features, '[', ''), ']', ''), ', ', ', ')
+WHERE restaurant_name IS NOT NULL;
+```
+
+
