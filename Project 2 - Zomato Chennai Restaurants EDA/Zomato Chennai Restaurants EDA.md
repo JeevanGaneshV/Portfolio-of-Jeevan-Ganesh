@@ -4,7 +4,7 @@
 
 This data analysis project explores the dining preferences and trends of Chennai residents using data from Zomato, a popular food delivery app that also offers detailed information about restaurants, including menus, reviews, and ratings. The goal is to identify patterns in Chennai's food scene by looking at aspects like prices, cuisine types, top-selling dishes, and user ratings.
 
-The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/phiitm/chennai-zomato-restaurants-data/data), includes vital information such as the cost for two people, the types of cuisines each restaurant offers, top-selling dishes, Zomato ratings, and the number of users that contribute to those ratings. 
+The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/phiitm/chennai-zomato-restaurants-data/data), includes vital information such as the cost for two people, the types of cuisines each restaurant offers, top-selling dishes, Zomato ratings, and the number of users that contribute to those ratings. For this project we are only looking at restaurants that provide both dining and delivery options.
 
 This project can provide several valuable insights:
 - Analyzing price distribution across different areas can infer the economic status of various neighborhoods and understand the affordability of dining options.
@@ -16,43 +16,53 @@ This project can provide several valuable insights:
 
 **INSERT SQL_DATA_TABLE**
 
-- Checking for any duplicate rows by using restaurant_name as primary key.
+- Checking for any duplicate rows by using address as primary key.
  ```sql
 SELECT 
-	restaurant_name, 
+	address, 
 	COUNT(*) AS count
-FROM world.zomato_chennai
+FROM world.zomato
 GROUP BY
-	restaurant_name
+	address
 HAVING count>1;
 ```
 
-- Removing unused columns such as zomato_url and address
+- Removing unused columns such as zomato_url
  ```sql
-ALTER TABLE world.zomato_chennai
+ALTER TABLE world.zomato
 DROP COLUMN zomato_url;
 ```
 
-```sql
-ALTER TABLE world.zomato_chennai
-DROP COLUMN address;
-```
 
 - Formatting strings to remove brackets from cuisine, top_dishes and features
 ```sql
-UPDATE world.zomato_chennai
+UPDATE world.zomato
 SET cuisine = REPLACE(REPLACE(REPLACE(cuisine, '[', ''), ']', ''), ', ', ', ')
-WHERE restaurant_name IS NOT NULL;
+WHERE address IS NOT NULL;
 ```
 ```sql
-UPDATE world.zomato_chennai
+UPDATE world.zomato
 SET top_dishes = REPLACE(REPLACE(REPLACE(top_dishes, '[', ''), ']', ''), ', ', ', ')
-WHERE restaurant_name IS NOT NULL;
+WHERE address IS NOT NULL;
 ```
 ```sql
-UPDATE world.zomato_chennai
+UPDATE world.zomato
 SET features = REPLACE(REPLACE(REPLACE(features, '[', ''), ']', ''), ', ', ', ')
-WHERE restaurant_name IS NOT NULL;
+WHERE address IS NOT NULL;
 ```
 
+- Exporting the cleaned dataset
+```sql
+SELECT * 
+FROM world.zomato
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/cleaned_zomato_dataset.csv'     
+FIELDS TERMINATED BY ','    
+OPTIONALLY ENCLOSED BY '"'    
+LINES TERMINATED BY '\r\n';  
+```
 
+## Data Analysis
+
+**Observations are made in bullet points**
+
+1. 
