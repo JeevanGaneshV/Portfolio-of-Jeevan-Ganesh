@@ -4,13 +4,14 @@
 
 This data analysis project explores the dining preferences and trends of Chennai residents using data from Zomato, a popular food delivery app that also offers detailed information about restaurants, including menus, reviews, and ratings. The goal is to identify patterns in Chennai's food scene by looking at aspects like prices, cuisine types, top-selling dishes, and user ratings.
 
-The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/phiitm/chennai-zomato-restaurants-data/data), includes vital information such as the cost for two people, the types of cuisines each restaurant offers, top-selling dishes, Zomato ratings, and the number of users that contribute to those ratings. For this project we are only looking at restaurants that provide both dining and delivery options.
+The dataset, sourced from [Kaggle, 2020](https://www.kaggle.com/datasets/phiitm/chennai-zomato-restaurants-data/data), includes vital information such as the cost for two people, the types of cuisines each restaurant offers, top-selling dishes, Zomato ratings, and the number of users that contribute to those ratings. For this project we are only looking at restaurants that provide both dining and delivery options.
 
-This project can provide several valuable insights:
-- Analyzing price distribution across different areas can infer the economic status of various neighborhoods and understand the affordability of dining options.
-- Identifying the popularity of different cuisines in various parts of Chennai can highlight cultural influences and preferences.
-- Examining the correlation between ratings, votes, and prices can offer insights into what makes a restaurant successful in Chennai.
-- By linking dining trends with areas undergoing urban changes, we can understand the impact of these changes on the local food culture.
+
+- The project is aiming to enhance Zomato's market presence and user engagement in specific areas of Chennai.
+- Identify popular dining areas and neighborhoods based on restaurant concentrations and user ratings.
+- Provide insights into the intersection of local incomes, spending habits, and restaurant choices in Chennai.
+- Highlight renowned restaurants and culinary icons in Chennai, focusing on their specialties and popularity.
+  
 
 ## Data Exploration and Cleaning
 
@@ -100,6 +101,54 @@ LINES TERMINATED BY '\r\n';
 
 7. **Top 20 Restaurants with the Most Branches in Chennai**
 <img src="Images/Most Branches in Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Dominos Pizza leads with 61 branches in Chennai, followed by Ibaco with 36 and Meat and Eat with 35. This shows that these restaurants are popular and people in Chennai enjoy their pizzas, ice creams, and non-vegetarian options. Their wide presence suggests they are efficient in profit making and strategically located.
+
+8. **Top 10 Locations in Chennai with Vegetarian Only Restaurants**
+<img src="Images/Vegetarian Only Restaurants.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- The abundance of vegetarian-only restaurants in Anna Nagar East, T. Nagar, and Velachery suggests these areas have a strong preference for vegetarian food. It indicates a significant vegetarian population and a high demand for vegetarian options due to cultural and health reasons.
+
+9. **Top 15 Popular Restaurants in Chennai with Ratings Above 4.2**
+<img src="Images/Popular Restaurants in Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Sangeetha Veg Restaurant is the most popular dining spot in Chennai, with over 60,000 user reviews. Its widespread appeal and high number of reviews reflect its excellent reputation and consistent support from both residents and visitors.
+
+10. **Popular Cuisines in Chennai**
+<img src="Images/Popular Cuisines in Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- The popular cuisines in Chennai—Chinese, North Indian, Fast Food, South Indian, and Biryani show the varied tastes and preferences among its residents.
+
+11. **Favorite Cuisines among Chennai Residents**
+<img src="Images/Favorite Cuisines among Chennai Residents.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- North Indian cuisine is favored by Chennai residents, showcasing a preference for its rich flavors, diverse dishes like paneer butter masala, naan, and other popular chat items.
+
+12. **Price Distribution of Restaurants Across Chennai Areas (> Rs. 500 for Two)**
+<img src="Images/Price Distribution of Restaurants Across Chennai Areas.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+    **Price Distribution of Restaurants Across Chennai Areas (< Rs. 400 for Two)**
+<img src="Images/Price Distribution of Restaurants Across Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+ 
+- In Chennai, where dining for two costs more than Rs. 500, we see income differences across areas. Kanathur and Santhome are pricier, suggesting residents there have higher incomes and enjoy luxury dining. Meanwhile, Abhiramapuram and Sowcarpet are cheaper where dining for two costs less than Rs. 400, indicating a different economic group with more affordable dining choices. This data helps us understand Chennai's economic diversity by showing how restaurant prices align with local incomes and spending habits.
+
+
+**Conclusions**
+
+-  Focus marketing efforts on popular dining hubs like Porur, Velachery, and T. Nagar to increase user engagement and app usage in these areas. Promote restaurants with diverse cuisine options to attract a wide range of users.
+-   Identify emerging areas with growing dining scenes, such as Anna Nagar East and Nanganallur, as potential hotspots for new restaurant openings. Provide incentives for restaurants to list on Zomato in these areas to expand the platform's coverage and offerings.
+-   Encourage user reviews to build trust and credibility among users. Highlight top-rated restaurants in popular categories like Domino's Pizza, Dindigul Thalappakatti, and Sangeetha Veg Restaurant to enhance visibility and attract more users.
+-   Collaborate with vegetarian restaurants in areas like Anna Nagar East and T. Nagar to expand vegetarian offerings on Zomato. Promote these restaurants prominently to cater to the city's significant vegetarian population.
+-   Use insights into economic disparities and dining preferences across different areas to guide business decisions and strategic partnerships. Provide data driven recommendations to restaurants on pricing strategies and menu offerings based on local market demands.
+
+  
+
+
+
+
+
+
+
 
 
 
