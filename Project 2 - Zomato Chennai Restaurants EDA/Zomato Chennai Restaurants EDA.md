@@ -4,7 +4,7 @@
 
 This data analysis project explores the dining preferences and trends of Chennai residents using data from Zomato, a popular food delivery app that also offers detailed information about restaurants, including menus, reviews, and ratings. The goal is to identify patterns in Chennai's food scene by looking at aspects like prices, cuisine types, top-selling dishes, and user ratings.
 
-The dataset, sourced from [Kaggle, 2020](https://www.kaggle.com/datasets/phiitm/chennai-zomato-restaurants-data/data), includes vital information such as the cost for two people, the types of cuisines each restaurant offers, top-selling dishes, Zomato ratings, and the number of users that contribute to those ratings. For this project we are only looking at restaurants that provide both dining and delivery options.
+The dataset, sourced from [Kaggle, 2020](https://www.kaggle.com/datasets/phiitm/chennai-zomato-restaurants-data/data), includes vital information such as the cost for two people, the types of cuisines each restaurant offers, top selling dishes, Zomato ratings, and the number of users that contribute to those ratings. For this project we are only looking at restaurants that provide both dining and delivery options.
 
 
 - The project is aiming to enhance Zomato's market presence and user engagement in specific areas of Chennai.
