@@ -14,7 +14,10 @@ This project can provide several valuable insights:
 
 ## Data Exploration and Cleaning
 
-**INSERT SQL_DATA_TABLE**
+**SQL Data Table Columns**
+
+<img src="Images/SQL.png" style="display: block; margin-left: auto; margin-right: auto; width: 400px;height: auto;">
+
 
 - Checking for any duplicate rows by using address as primary key.
  ```sql
@@ -65,4 +68,40 @@ LINES TERMINATED BY '\r\n';
 
 **Observations are made in bullet points**
 
-1. 
+1. **Analysis of Chennai Locations with the Highest Number of Restaurants**
+<img src="Images/Locations with the Highest Number of Restaurants in Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Porur, Velachery, Anna Nagar East, Ambattur, and T. Nagar having more than **100** restaurants each highlight them as popular dining spots in Chennai. This indicates a strong preference for dining out, likely due to the concentration of both residential areas and commercial activities in these locations.
+
+2. **Top 10 Highly Rated Restaurant Locations in Chennai**
+<img src="Images/Top 10 Locations in Chennai with Restaurants Rated 4 Stars or Above.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Anna Nagar East, Nungambakkam, and Adyar are popular dining areas in Chennai with over 15 highly rated restaurants each, catering to residents who appreciate good food and city life. (We applied filters to ensure that the data includes ratings from over 200 users for both delivery and dining experiences, ensuring reliability)
+
+3. **Restaurants with the Highest Number of 4 Star Ratings or Above**
+<img src="Images/Restaurants with the Highest Number of 4 Star Ratings or Above.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Domino's Pizza, Dindigul Thalappakatti, and Sangeetha Veg Restaurant are highly respected in Chennai because they have the most restaurant locations rated 4 stars or higher. Domino's Pizza is well-liked for its reliable service and widespread delivery options, which Chennai residents prefer for convenient pizza choices. Dindigul Thalappakatti is known for its authentic South Indian food, especially its famous biryanis, which are very popular among locals who enjoy rich, traditional dishes. Sangeetha Veg Restaurant is famous for its wide variety of vegetarian dishes and consistent quality, serving Chennai's large vegetarian population well. These restaurants not only have satisfied customers but also reflect Chennai's diverse culinary tastes, highlighting a commitment to high standards and genuine flavors in the city's dining scene. (We applied filters to ensure that the data includes ratings from over 200 users for both delivery and dining experiences, ensuring reliability)
+
+4. **Top 10 Budget Friendly Locations in Chennai with Restaurants Rated 3.6 Stars or Above**
+<img src="Images/Top 10 Budget Friendly Locations in Chennai with Restaurants.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Anna Nagar East, Adyar, and Nanganallur are popular in Chennai for affordable dining because they have a variety of restaurants that offer good food at reasonable prices. Anna Nagar East is a family friendly area, Adyar mixes homes with businesses. These areas are top choices for budget conscious diners looking for enjoyable meals without spending too much. (We applied filters to ensure that the data includes ratings from over 200 users for both delivery and dining experiences, ensuring reliability)
+
+5. **Top 10 Affordable Restaurants in Chennai with Ratings of 3.6 Stars or Above**
+<img src="Images/Top 10 Affordable Restaurants in Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- ID, Chai Kings, and The Kati Roll Shop are among Chennai's top 10 affordable restaurants where the food for two cost between Rs. 100 to 300. (We applied filters to ensure that the data includes ratings from over 200 users for both delivery and dining experiences, ensuring reliability)
+
+6. **Areas in Chennai with the Expensive Restaurants**
+<img src="Images/Areas in Chennai with the Highest Priced Restaurants.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+- Nungambakkam, Alwarpet, and Adyar feature expensive restaurants in Chennai, indicating a preference for luxury dining. These areas likely have residents with higher incomes, including professionals and possibly celebrities, who value luxurious dining experiences. The presence of fancy restaurants reflects the demand for premium food and elegant atmospheres in these neighborhoods.
+
+7. **Top 20 Restaurants with the Most Branches in Chennai**
+<img src="Images/Most Branches in Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
+
+
+
+
+
