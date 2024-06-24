@@ -20,3 +20,20 @@ To address this problem, a comprehensive data analysis was conducted using a dat
 
 ### Conclusion
 With data analysis, I was able to uncover valuable insights, these insights provided a clear understanding of user behavior, highlighting areas for product enhancement and opportunities for more targeted and effective marketing strategies. The analysis demonstrated the importance of physical activity in calorie burned and identified patterns that can be used to motivate users to achieve better health outcomes.
+
+
+## Project 2 - Zomato Chennai Restaurants EDA
+### [**CLICK HERE TO SEE THE ENTIRE PROJECT REPORT**](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/blob/main/Project%202%20-%20Zomato%20Chennai%20Restaurants%20EDA/Zomato%20Chennai%20Restaurants%20EDA.md#project-2---zomato-chennai-restaurants-eda)
+
+### Description of the Problem
+Zomato aims to enhance its market presence and user engagement in Chennai by understanding the dining preferences and trends of its residents. This project explores Zomato's restaurant data to identify popular dining areas, renowned restaurants, and the intersection of local incomes with restaurant choices. The goal is to provide actionable insights to improve Zomato's offerings and strategic marketing efforts in Chennai.
+
+### Process
+To analyze the dining preferences and trends in Chennai, we started with a comprehensive data cleaning phase using SQL. This involved removing duplicates by using the address as a primary key, eliminating unused columns, and formatting string fields to enhance consistency. After cleaning the data, we conducted an in depth analysis focusing on key aspects such as the number of restaurants in different locations, highly rated dining spots, and budget-friendly as well as expensive areas. We also examined the most popular cuisines, and restaurants with multiple branches. The analysis utilized Tableau for creating visualizations that highlighted trends in restaurant locations, user ratings, and price distributions across Chennai. 
+
+### **Tools Used:**
+- **SQL**: For Data exploration and Data cleaning
+- **Tableau**: For Data Analysis and Visualization
+
+### Conclusion
+The analysis provided valuable insights into Chennai's food scene, highlighting popular dining hubs and highly rated restaurants. It revealed economic disparities reflected in dining preferences and spending habits across different areas. The findings suggest strategic marketing efforts should focus on popular dining spots and emerging areas, encourage user reviews, and promote vegetarian restaurants to cater to the city's significant vegetarian population. 
