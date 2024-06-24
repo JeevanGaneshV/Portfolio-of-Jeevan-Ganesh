@@ -127,7 +127,8 @@ LINES TERMINATED BY '\r\n';
 12. **Price Distribution of Restaurants Across Chennai Areas (> Rs. 500 for Two)**
 <img src="Images/Price Distribution of Restaurants Across Chennai Areas.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
 
-    **Price Distribution of Restaurants Across Chennai Areas (< Rs. 400 for Two)**
+
+**Price Distribution of Restaurants Across Chennai Areas (< Rs. 400 for Two)**
 <img src="Images/Price Distribution of Restaurants Across Chennai.png" style="display: block; margin-left: auto; margin-right: auto; width: 800px;height: auto;">
  
 - In Chennai, where dining for two costs more than Rs. 500, we see income differences across areas. Kanathur and Santhome are pricier, suggesting residents there have higher incomes and enjoy luxury dining. Meanwhile, Abhiramapuram and Sowcarpet are cheaper where dining for two costs less than Rs. 400, indicating a different economic group with more affordable dining choices. This data helps us understand Chennai's economic diversity by showing how restaurant prices align with local incomes and spending habits.
