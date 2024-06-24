@@ -12,7 +12,10 @@ The dataset, sourced from [Kaggle, 2020](https://www.kaggle.com/datasets/phiitm/
 - Provide insights into the intersection of local incomes, spending habits, and restaurant choices in Chennai.
 - Highlight renowned restaurants and culinary icons in Chennai, focusing on their specialties and popularity.
   
-
+## Content
+1. [Data Exploration and Cleaning](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/blob/main/Project%202%20-%20Zomato%20Chennai%20Restaurants%20EDA/Zomato%20Chennai%20Restaurants%20EDA.md#data-exploration-and-cleaning)
+2. [Data Analysis](https://github.com/JeevanGaneshV/Portfolio-of-Jeevan-Ganesh/blob/main/Project%202%20-%20Zomato%20Chennai%20Restaurants%20EDA/Zomato%20Chennai%20Restaurants%20EDA.md#data-analysis)
+3. 
 ## Data Exploration and Cleaning
 
 **SQL Data Table Columns**
